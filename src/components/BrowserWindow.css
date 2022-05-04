@@ -1,0 +1,135 @@
+svg {
+  width: min(calc(100vw - 4rem), 35rem) !important;
+  height: auto !important;
+}
+#browser__window #header__logo {
+  animation: logo 5000ms ease infinite alternate;
+}
+#browser__window #header__links {
+  animation: header__links 5000ms ease infinite alternate;
+}
+#browser__window #document__nav {
+  animation: document__nav 5000ms ease infinite alternate;
+}
+#browser__window #hero__image {
+  animation: hero__img 5000ms ease infinite alternate;
+}
+#browser__window #hero__content {
+  animation: hero__content 5000ms ease infinite alternate;
+}
+#browser__window #hero__heading {
+  animation: hero__heading 5000ms ease infinite alternate;
+}
+#browser__window #hero__para__bottom {
+  animation: hero__para 5000ms ease infinite alternate;
+}
+#browser__window #hero__cta {
+  animation: hero__cta 5000ms ease infinite alternate;
+}
+
+@keyframes logo {
+  50% {
+    transform: none;
+  }
+  75% {
+    transform: translateX(40%);
+  }
+  100% {
+    transform: none;
+  }
+}
+@keyframes header__links {
+  7% {
+    transform: none;
+  }
+  50% {
+    transform: translateX(-20%);
+  }
+  75% {
+    transform: none;
+  }
+}
+@keyframes document__nav {
+  7% {
+    transform: none;
+  }
+  50% {
+    transform: none;
+  }
+  75% {
+    transform: translateX(-35%);
+  }
+  100% {
+    transform: translateX(-8%);
+  }
+}
+@keyframes hero__img {
+  7% {
+    transform: none;
+  }
+  50% {
+    transform: translate(14%, 15%) scale(0.5);
+  }
+  75% {
+    transform: translateX(-46%) scale(1);
+  }
+  100% {
+    transform: translateX(14%) translateY(28%) scale(0.5);
+  }
+}
+@keyframes hero__content {
+  7% {
+    transform: none;
+  }
+  50% {
+    transform: translateX(20%) translateY(10%);
+  }
+  75% {
+    transform: translateX(43%) translateY(0);
+  }
+  100% {
+    transform: translateX(20%) translateY(10%);
+  }
+}
+@keyframes hero__heading {
+  7% {
+    transform: none;
+  }
+  50% {
+    transform: translateX(10%);
+  }
+  75% {
+    transform: none;
+  }
+  100% {
+    transform: translateY(-17%) translateX(10%);
+  }
+}
+@keyframes hero__para {
+  7% {
+    transform: none;
+  }
+  50% {
+    transform: scaleX(0.8) translateX(10%);
+  }
+  75% {
+    transform: none;
+  }
+  100% {
+    transform: scaleX(0.8) translateX(10%);
+  }
+}
+@keyframes hero__cta {
+  7% {
+    transform: none;
+  }
+  50% {
+    transform: translateX(13%) translateY(-4%);
+  }
+  75% {
+    transform: none;
+  }
+  100% {
+    transform: translateX(13%) translateY(-4%);
+  }
+}

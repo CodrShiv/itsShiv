@@ -1,0 +1,43 @@
+.menu {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: flex-start;
+    gap: .5rem;
+    position: fixed;
+    left: .25rem;
+    top: .75rem;
+    min-height: 100vh;
+    width: 2.5rem;
+}
+.menuLink {
+    text-decoration: none;
+}
+.menuBtnText {
+    writing-mode: vertical-lr !important;
+    text-orientation: sideways-right !important;
+    transform: rotate(180deg);
+    font-weight: 400 !important;
+}
+.menuButton {
+    box-shadow: 0 0 3rem 0 rgb(0, 0, 0, 15%) !important;
+    padding:1rem 0.05rem 1rem .25rem !important;
+    min-width: auto !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    transition: all 400ms !important;
+}
+.menuButton:hover {
+    transform: translateX(-.25rem) !important;
+}
+.inactive .menuButton {
+    background-color: #FFFFFF !important;
+    color: #FCA311 !important;
+}
+
+.active .menuButton {
+    transform: translateX(-.25rem);
+    background-color: #FCA311 !important;
+    color: #FFFFFF !important;
+}

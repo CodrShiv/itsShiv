@@ -1,0 +1,50 @@
+.intro {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.introText {
+    background-color: var(--blue);
+    border-radius: .35rem;
+    border-top-left-radius: 1.5rem;
+    border-bottom-right-radius: 1.5rem;
+    padding:0 1rem;
+    text-transform: uppercase;
+    font-weight: 900;
+    font-size: 2.25rem;
+    color: var(--light);
+    box-shadow: 0 0 1rem 0 rgba(0,0,0,.15);
+}
+.introName {
+    color: var(--dark);
+    font-weight: 900;
+    font-size: 5.5rem;
+    margin: -1rem 0 -.5rem 0;
+}
+.skills {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: .25rem;
+    margin: auto;
+    text-transform: lowercase;
+}
+.skill {
+    background-color: var(--accent);
+    color: var(--light);
+    padding: .15rem .95rem;
+    font-weight: 600;
+    margin-top: -1rem;
+    font-size: 1.15rem;
+    text-align: center;
+    box-shadow: 0 0 1rem 0 rgba(0,0,0,.15);
+}
+.skill:first-child {
+    border-top-left-radius: .3rem;
+    border-bottom-left-radius: .3rem;
+}
+.skill:last-child {
+    border-top-right-radius: .3rem;
+    border-bottom-right-radius: .3rem;
+}
